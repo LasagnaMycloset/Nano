@@ -47,7 +47,7 @@ if len(sys.argv) > 1 and os.path.exists(sys.argv[1]): # Check if the file exists
       opened_with_file_contents = file.read()
       debug("File opened successfully.\n", level=2)
   except Exception as e:
-    debug(f"Couldn't read file. `e`\n", level=2)
+    debug(f"Couldn't read file. `{e}`\n", level=2)
     pass # Ditch, if the file cannot be opened.
 
 class Interpreter:
