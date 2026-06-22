@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 # Main interprer / executer or whatever it is called.
 
 # Started in 2nd/April/2026 -- Rewritten in 6/18/2026. (This is the rewrite)
