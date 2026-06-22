@@ -10,7 +10,7 @@ A programming language, called Nano, inspired my Small Basic™. Designed to mak
 |Command|Description|Example|
 |:------|:--------|:------|
 |`say`|**Outputs** text to the screen.|`say Hello, world!`|
-|`wait`|**Waits** a specific amount of **seconds**. Defaults to 0.5s|`wait 1.5`|
+|`wait`|**Waits** a specific amount of **seconds**. Defaults to 0.05s|`wait 1.5`|
 |`color`|Makes text **colorful**.|`color red` & `color bg green`|
 |`reset_color`|Resets the text's color|`reset_color`|
 |`var`|Creates a **variable** using **Python's* syntax.|`var Tau = 3.1415926 * 2`|
