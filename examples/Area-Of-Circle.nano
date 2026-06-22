@@ -1,0 +1,18 @@
+-- Example of the area of the circle
+
+say The area of a circle is πr².
+say Which means the value of pi times (the radius of the circle squared).
+
+wait 2
+
+
+say  
+say I have a circle,
+say its radius is 9.
+say  
+
+wait 1
+
+say Its area is π × 9²,
+var Area_Of_The_Circle = 3.14159265358979 * 9 ** 2
+say Which is ~Area_Of_The_Circle~.
