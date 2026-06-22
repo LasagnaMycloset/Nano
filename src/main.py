@@ -1,3 +1,4 @@
+# Main interprer / executer or whatever it is called.
 
 # Started in 2nd/April/2026 -- Rewritten in 6/18/2026. (This is the rewrite)
 # Inspired by Small Basic by Microsoft (C).
