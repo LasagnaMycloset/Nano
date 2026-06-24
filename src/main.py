@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
+"""The main executor for code [main.py]."""
 
-# Main interprer / executer or whatever it is called.
-
-# Started in 2nd/April/2026 -- Rewritten in 6/18/2026. (This is the rewrite)
+# Started in 2nd/April/2026 -- Rewritten in 18th/June/2026. (This is the rewrite)
 # Inspired by Small Basic by Microsoft (C).
 # Designed to make programming fun & easy!
 # Called "Nano".
@@ -26,7 +25,7 @@ import os  # For pathing stuff.
 import time
 from tkinter import messagebox # For popup messages.
 
-DEBUG_MODE: Final[bool] = True if "-d" in sys.argv else False # False by default. True if -d in terminal flags... You can toggle it
+DEBUG_MODE: Final[bool] = "-d" in sys.argv # DEBUG_MODE is turned on if "-d" is in terminal flags else it is turned off
 
 def debug(info: str = "N/A", level: int = 1) -> None:
   """A function to track execution"""
