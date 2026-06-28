@@ -23,6 +23,8 @@ To comment you need to put `--` on the start of the line, for example: `-- This 
 
 In strings, variables between `~`...`~` are going to be replaced with their value,
 
+While making a `var` variables inside that var command are required to be lowercase.
+
 for example:
 ```
 var a = 5
@@ -37,7 +39,6 @@ You can put a `-d` flag for debugging in the terminal.
 - Make your variables Pascal_Snake_Case and descriptive like `Candies_I_Bought`
 
 
-- Created to make programming fun & easy!
 
 \
 Example program:
